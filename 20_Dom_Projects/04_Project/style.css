@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/bg.jpg) no-repeat center center/ cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+}
+
+.container {
+    width: clamp(300px, 50vw, 600px);
+    /* height: clamp(150px, 30vw, 320px); */
+    height: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+.timer {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+button.btn-2 {
+    background-color: red;
+}
+
+button.btn-3 {
+    background-color: orange;
+}
+
+
